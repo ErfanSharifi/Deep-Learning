@@ -20,7 +20,6 @@ def print_data_info(x_train, y_train, x_test, y_test):
 
 # check data shape
 
-
     print ("\tx_train.shape:{}".format(np.shape(x_train)))
     print ("\ty_train.shape:{}".format(np.shape(y_train)))
     print ("\tx_test.shape:{}".format(np.shape(x_test)))
@@ -68,10 +67,5 @@ model.fit(x_train, y_train,
           epochs=30,
           batch_size=64, validation_split=0.2)
 
-# model.compile(loss='categorical_crossentropy',optimizer = 'rmsprop',metrics = ['accuracy'])
 
-# model.fit(x_train, y_train, epochs=30,batch_size = 64,validation_split=0.2)
-
-# loss, acc = model.evaluate(x_test, y_test)
-# print('\nTesting loss: %.2f, acc: %.2f%%'%(loss, acc))
-
+#"Hellllllooooooo"
