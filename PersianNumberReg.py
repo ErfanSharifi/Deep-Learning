@@ -7,8 +7,6 @@ from dataset import load_hoda
 from keras.utils import np_utils
 
 
-
-
 np.random.seed(123)
 
 x_train_original, y_train_original, x_test_original, y_test_original = load_hoda()
