@@ -68,4 +68,4 @@ model.fit(x_train, y_train,
           batch_size=64, validation_split=0.2)
 
 
-#"Hellllllooooooo"
+#good
