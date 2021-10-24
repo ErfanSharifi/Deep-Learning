@@ -8,7 +8,7 @@ def load_hoda(training_sample_size=1000, test_sample_size=200, size=5):
     trs = training_sample_size
     tes = test_sample_size
     #dataset = io.loadmat('./dataset/Data_hoda_full.mat')
-    dataset = io.loadmat('/Users/admin/Documents/My Documents/Ai/Deep Learning/Deep-Learning Codes/Deep-Learning/dataset/Data_hoda_full.mat')
+    dataset = io.loadmat('/Users/admin/Documents/My Documents/Ai/Deep Learning/Deep-Learning Codes/Repositories/Deep-Learning/dataset/Data_hoda_full.mat')
     #test and training set
     X_train_orginal = np.squeeze(dataset['Data'][:trs])
     y_train = np.squeeze(dataset['labels'][:trs])

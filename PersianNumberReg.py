@@ -31,12 +31,14 @@ def print_data_info(x_train, y_train, x_test, y_test):
 
 # Preprocessing
 
+
 x_train = np.array(x_train_original)
 y_train = np_utils.to_categorical(y_train_original, num_classes=10)
 
 
 x_test = np.array((x_test_original))
 y_test = np_utils.to_categorical(y_test_original, num_classes=10)
+
 
 print ("Befor Preprocessing")
 print_data_info(x_train_original, y_train_original, x_test_original, y_test_original)
@@ -67,5 +69,3 @@ model.fit(x_train, y_train,
           epochs=30,
           batch_size=64, validation_split=0.2)
 
-
-#good
